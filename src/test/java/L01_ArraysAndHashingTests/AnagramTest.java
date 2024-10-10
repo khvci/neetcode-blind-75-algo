@@ -1,11 +1,12 @@
-package org.example.L01_ArraysAndHashing;
+package L01_ArraysAndHashingTests;
 
+import org.example.L01_ArraysAndHashing.Anagram;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class AnagramTest {
-
     @Test
     void racecarAndCarraceReturnsTrue() {
         Anagram anagram = new Anagram();

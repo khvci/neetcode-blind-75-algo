@@ -1,7 +1,7 @@
 package org.example.L01_ArraysAndHashing;
 
 public class Anagram {
-    boolean isAnagram(String s, String t) {
+    public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) return false;
 
         // Create an array to count the frequency of each character
